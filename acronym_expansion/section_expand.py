@@ -12,7 +12,6 @@ from utils import (
 )
 from constant import ICD_DIR, GEN_DIR, TITLE_PATH
 
-# Add parent directory to path
 sys.path.append('../')
 
 def main(args):

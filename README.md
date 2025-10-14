@@ -2,7 +2,7 @@
 
 This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding**
 
-## Dataset: MIMIC-3 ICD-9
+## Data:
 
 MIMIC-3:  
 - Download from [PhysioNet](https://physionet.org/content/mimiciii/1.4/) 
@@ -29,6 +29,16 @@ Models:
 - meta-llama/Llama-3.1-8B-Instruct
 - meta-llama/Llama-3.1-70B-Instruct
 
-Prompts:
 
-Header titles:
+
+Generate augment data and filter low-quality outputs:
+
+```
+cd acronym_expansion/
+
+python section_expand.py --model_name meta-llama/Llama-3.2-1B-Instruct
+
+python preprocess.py --model_name meta-llama/Llama-3.2-1B-Instruct
+```
+
+
