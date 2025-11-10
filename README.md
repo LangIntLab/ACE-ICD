@@ -1,7 +1,9 @@
 # ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding
 
-This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding**.
+This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding**
 (The code for training our ICD coding models will be made available soon.)
+
+![pipeline](figure.png)
 
 ## Data:
 
@@ -17,9 +19,12 @@ Data files after preprocessing:
 - Top50: mimic3-50_{train/dev/test}.json
 - Top50Rare: mimic3-50l_{train/dev/test}.json
 
-Section titles: titles_synonyms.json
-- We use section title synonyms from [Semi Structured ICD Coding](https://github.com/LuChang-CS/semi-structured-icd-coding)
+Section titles: 
+- ```titles_synonyms.json``` from [Semi Structured ICD Coding](https://github.com/LuChang-CS/semi-structured-icd-coding)
 
+Code synonyms:
+- Top50: ```le50.npy``` and ```top50_MSAM4-rand_synonyms.pkl``` from [MSAM](https://github.com/gecgomes/ICD_Coding_MSAM)
+- Top50Rare: ```icd_mimic3_random_sort.json``` from [MSMN](https://github.com/GanjinZero/ICD-MSMN)
 
 
 ## Zero-shot Acronym Expansion
