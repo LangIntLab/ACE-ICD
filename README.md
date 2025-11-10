@@ -1,6 +1,7 @@
 # ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding
 
-This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding**
+This repository contains the code for **ACE-ICD: Acronym Expansion as Data Augmentation for ICD coding**.
+(The code for training our ICD coding models will be made available soon.)
 
 ## Data:
 
